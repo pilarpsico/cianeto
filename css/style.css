@@ -21,7 +21,7 @@ body * {
     color: var(--text-color);
 }
 #container {
-    Width: 360px;
+    Width: 340px;
     margin: 56px auto 0px;
     padding: 0 20px;
 }
