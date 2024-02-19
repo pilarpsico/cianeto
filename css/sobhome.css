@@ -7,14 +7,14 @@ body * {
     color: white;
 }
 body {
-    width: 36.0rem;
-    padding: 2.4rem;
+    width: 32.0rem;
+    padding: 1.4rem;
     margin: 5.6rem auto 0;
     background-color: rgb(31, 14, 41);    
 }
 header {
-    width: 36.0rem;
-    padding: .8rem;
+    width: 32.0rem;
+    padding: .6rem;
     font-family: 'inter';
 }
 header h1 {
@@ -59,12 +59,12 @@ main article .fim {
 }
 footer {
     font-family: 'inter', sans-serif;
-    font-size: .8rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: blueviolet;
-}
+}/*
 @media ( min-width:700px) {
     * {
         margin:0;
@@ -85,4 +85,4 @@ footer {
     footer {
         font-size: 14px;
     }
-}
+}*/
