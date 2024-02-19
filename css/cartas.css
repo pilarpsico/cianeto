@@ -8,14 +8,14 @@ body * {
     color: white;
 }
 body {
-    width: 36.0rem;
-    padding:2.4rem;
+    width: 32.0rem;
+    padding:1.4rem;
     margin: 1.6rem auto 0;
     background-color:rgb(31, 14, 41);
 }
 header {
-    width: 36.0rem;
-    padding: 0.8rem;
+    width: 32.0rem;
+    padding: 0.6rem;
     font-family: 'inter', sans-serif;
 }
 header h1 {,
@@ -48,17 +48,17 @@ header nav li:hover {
     border: 1px solid rgb(96, 28, 160);
     transform: scale(1.1);
 }
-main article {
+main .article article {
     font-family: 'inter', sans-serif;
     font-size: 1.6rem;
     padding: 1.6rem;
 }
-main article p {
-    font-size: 1.6rem;
+main .article p {
+    font-size: clamp(0.8rem, 1.0vw + 4rem, 1.6rem);
     margin-left: .0rem;
     text-align: justify;
 }
-#carta img {
+.carta img {
     width: 10.0rem;
     height: 5.0rem;
     margin: auto 10.5rem;
@@ -77,32 +77,37 @@ footer {
     color: blueviolet;
     margin-top: 2.0rem;
 }
-@media (min-width: 700px) {
-    * {
-        margin: 0;
-        padding: 0;
+@media (min-width: 770px) {
+    @media (min-width: 700px) {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            max-width: 90%;
+        }
+        header {
+            width: 1008px;
+            margin: -18px auto auto -240px;
+        }
+        main {
+            display: flex;
+            gap: 10rem;
+            max-width: 90%;
+        }
+        main .article {
+            
+            width: 630px;
+            margin-left: -250px;
+        }
+        main .article p {
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+        }
+        .carta {
+            margin: auto auto 200px -200px;
+        }
+        footer {
+            font-size: 14px;
+        }
     }
-    body {
-        max-width: 90%;
-    }
-    header {
-        width: 1008px;
-        margin: -18px auto auto -240px;
-    }
-    main {
-        display: flex;
-        gap: 10rem;
-        max-width: 90%;
-    }
-    #article {
-        width: 630px;
-        margin-left: -250px;
-        font-size: 10px;
-    }
-    #carta {
-        margin: auto auto 400px -200px;
-    }
-    footer {
-        font-size: 14px;
-    }
-}
