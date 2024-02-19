@@ -59,6 +59,7 @@ article {
     border: 1px solid rgb(48,31,69);
     border-radius: 0.8rem;
     margin-left: 2.0rem;
+    line-height: 1.6rem;
 }
 #div1:hover {
     background: rgb(48, 21, 63);
