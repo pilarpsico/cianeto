@@ -1,5 +1,15 @@
+:root {
+    --text-color:#ffffff;
+    --text-bgcolor:  rgb(31, 14, 41);
+    --stroke-color:  rgb(48, 31, 69);
+    --surface-color: rgb(28, 18, 37);
+    --surface-color-hover:rgb(48, 21, 63);
+    --social-color-hover: rgb(48, 21, 63);
+    
+}
+
 body {
-    background-color: rgb(31, 14, 41);
+    background-color: var(--text-bgcolor);
 }
 * {
     margin: 0;
@@ -8,7 +18,7 @@ body {
 }
 body * {
     font-family: 'Inter', sans-serif;
-    color: #ffffff;
+    color: var(--text-color);
 }
 #container {
     Width: 360px;
@@ -41,14 +51,14 @@ ul li a {
     align-items: center;
     height: 52px;
     padding: 16px 24px;
-    background: rgb(28, 18, 37);
-    border: 1px solid rgb(48,31,69);
+    background: var(--surface-color);
+    border: 1px solid rgb(48, 31, 69);
     border-radius: 8px;
     text-decoration: none;
     font-weight: 500;
 }
 ul li a:hover {
-    background: rgb(48, 21, 63);
+    background: var(--surface-color-hover);
     border: 1px solid rgb(96, 28, 160); 
 }
 #social-links {
@@ -62,19 +72,70 @@ ul li a:hover {
     align-items: center;
     justify-content: center;
     padding: 14px;
-    transition: background 0.2s;
+   
 }
 #social-links a:hover {
-    background:rgb(39, 34, 73);
-    padding: 16px;
+    background: var(--social-color-hover);
+        padding: 16px;
     border-radius: 50%
 }
 footer {
     text-align: center;
     font-size: 14px;
-<<<<<<< HEAD
     justify-content: center;
+    margin-bottom: 30px;
 }
-=======
+/*
+.light {
+    --text-color: black;
+    --text-bgcolor: rgb(210, 197, 221);
+    --stroke-color: rgb(11, 3, 17);
+    --surface-color: rgb(144, 116, 180);
+    --surface-color-hover: rgb(114, 55, 153);
+    --social-color-hover: rgb(114, 55, 153);
+   
 }
->>>>>>> ff083422dba55b845dba8c700807534e511910d6
+
+#switch {
+    position: relative;
+    width: 64px;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+
+#switch button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+
+    z-index: 1;
+    left: 0;
+    transform: translatey(-50%);
+    top: 50%;
+
+    position:absolute;
+    z-index: 1;
+    top:50%
+
+}
+
+#switch span {
+    width: 64px;
+    height: 24px;
+    background: var(--surface-color-hover);
+    border: 1px solid var(--stroke-color);
+   -webkit-backdrop-filter: blur(4px);
+    display: block;
+    border-radius: 9999px;
+}
+
+
+
+.light #switch button {
+    right: 0;
+    left: inital;
+
+   
+}*/
