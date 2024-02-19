@@ -40,9 +40,7 @@ header h1 {
 header nav {
   padding: 0.2rem;
   margin-top: 1.0rem;
-  border: 1px solid yellow;
-   
-   }
+}
 
 header nav ul {
     list-style: none;
