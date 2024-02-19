@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(31, 14, 41);
+    background-color: rgb(31, 14, 41);
 }
 * {
     margin: 0;
@@ -72,5 +72,9 @@ ul li a:hover {
 footer {
     text-align: center;
     font-size: 14px;
+<<<<<<< HEAD
     justify-content: center;
 }
+=======
+}
+>>>>>>> ff083422dba55b845dba8c700807534e511910d6
