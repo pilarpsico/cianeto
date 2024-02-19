@@ -10,12 +10,12 @@ body  * {
 body {
     background-color: rgb(31, 14, 41);
     width: 32.0rem;
-    padding: 2.4rem;
+    padding: 1.4rem;
     margin: 1.6rem auto 0;
 }
 header {
     width: 32.0rem;
-    padding: 0.8rem;
+    padding: 0.6rem;
     font-family: 'inter';
     margin-left: -2.5rem;
 }

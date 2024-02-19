@@ -82,7 +82,8 @@ footer {
     main article {
         width: 800px;
         margin-left: -130px;
-        font-size: 16px;    
+        font-size: 16px;
+        line-height: 1.6rem;    
 
     }   
     footer {
