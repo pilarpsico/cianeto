@@ -59,8 +59,8 @@ main .article p {
     text-align: justify;
 }
 .carta img {
-    width: 10.0rem;
-    height: 5.0rem;
+    width: 15.0rem;
+    height: 7.5.0rem;
     margin: auto 10.5rem;
 }
 main p {
@@ -70,7 +70,7 @@ main p {
 }
 footer {
     font-family: 'inter', sans-serif;
-    font-size: .8rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
