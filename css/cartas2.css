@@ -69,26 +69,33 @@ header nav li:hover{
 }
 
 main {
-    line-height: 2.0rem;    
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
-   
+    font-weight: 100;
+    line-height: 2.0rem;
 }
 
-main article {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;    
+main article .text {
     margin: 1.5rem;
     padding: 1.0rem;
     letter-spacing: .1rem;
     margin-right: 1.6rem;
     width: 95%;
+
 }
 
-main article .fim {
+
+main .carta p {
     display: flex;
-    justify-content: center;    
-    align-items: center;
-    padding:.5rem;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+
+main .carta img {
+    width: 20.0rem;
+    height: 10.0rem;
+    display: flex;
+    margin: 0 auto;
 }
 
 footer {
@@ -99,36 +106,5 @@ footer {
     align-items: center;
     justify-content: center;
     color: blueviolet;
-}  
-/*
-@media (min-width: 770px) {
-   
-   * {
-    
-    
-   }    
-
-   :root {
-    max-width: 1000px;
-    border: 1px solid yellow;
-   }
-
-   body {
-    margin-inline: auto;
-   }
-   
-   header h1, nav {
-    width: 600px;
-    border: 1px solid yellow;
-    
-   }
-
-   main article, .fim {
-    width: 600px;
-    border: 1px solid yellow;
-   }
-
-   footer {
-    width: 100%;
-   }
+    margin-top: 2.4rem;
 }  
