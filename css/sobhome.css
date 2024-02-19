@@ -64,7 +64,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: blueviolet;
-}/*
+}
 @media ( min-width:700px) {
     * {
         margin:0;
@@ -80,9 +80,9 @@ footer {
     main article {
         width: 800px;
         margin-left: -130px;
-        font-size: 16px;    
+        font-size: 14px;    
     }   
     footer {
-        font-size: 14px;
+        font-size: 8px;
     }
-}*/
+}
