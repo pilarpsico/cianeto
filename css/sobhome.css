@@ -53,6 +53,7 @@ main article {
     font-family: 'inter', sans-serif;
     font-size: 1.6rem;
     padding:1.6rem;
+
 }
 main article .fim {
     text-align: center;
@@ -77,12 +78,14 @@ footer {
         width: 1008px;
         margin: -80px auto auto -240px;
     }
+
     main article {
         width: 800px;
         margin-left: -130px;
-        font-size: 14px;    
+        font-size: 16px;    
+
     }   
     footer {
-        font-size: 8px;
+        font-size: 14px;
     }
 }
