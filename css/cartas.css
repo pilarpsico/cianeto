@@ -18,7 +18,7 @@ header {
     padding: 0.6rem;
     font-family: 'inter', sans-serif;
 }
-header h1 {,
+header h1 {
     background: rgb(28, 18, 37);
     border: 1px solid rgb(48, 31, 69);
     border-radius: 1.0rem 6.0rem;
@@ -78,7 +78,7 @@ footer {
     margin-top: 2.0rem;
 }
 @media (min-width: 770px) {
-    @media (min-width: 700px) {
+  
         * {
             margin: 0;
             padding: 0;
