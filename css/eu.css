@@ -9,12 +9,12 @@ body  * {
 }
 body {
     background-color: rgb(31, 14, 41);
-    width: 36.0rem;
+    width: 32.0rem;
     padding: 2.4rem;
     margin: 1.6rem auto 0;
 }
 header {
-    width: 36.0rem;
+    width: 32.0rem;
     padding: 0.8rem;
     font-family: 'inter';
     margin-left: -2.5rem;
@@ -50,9 +50,11 @@ header nav li:hover  {
     border: 1px solid rgb(69, 28, 160);
     transform: scale(1.1);
 }
+
 #iframe {
+   
     height: 15.0rem;
-    margin: 0.8rem auto auto 6.0rem;
+    margin: 0.8rem auto auto 4.0rem;
     display: flex;
     align-items: center;
 }
@@ -60,6 +62,7 @@ header nav li:hover  {
     font-family: 'inter';
     font-size: 1.2rem;
     text-align: justify;
+    
 }
 footer {
     font-family: 'inter';
@@ -87,14 +90,20 @@ footer {
         gap:10px;
         max-width: 1000px;
     }
+    main {
+        gap: 1.0rem;
+
+    }
     #iframe {
         width: 200px;
         height: 300px;
-        margin-left: -250px;
+        margin-left: -280px;
     }
     #article {
         width: 600px;
-        margin-right: -200px;
+        margin-right: -280px;
+        font-size: 1.0rem;
+        line-height: 1.6rem;
     }
 
     footer {
