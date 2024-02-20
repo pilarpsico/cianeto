@@ -103,6 +103,7 @@ button {
     display: flex;
     margin-top: 2.4rem 0 3.0rem;
     margin: 0 auto;
+    border-radius: 0.8rem;
    
 }
 footer {
