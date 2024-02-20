@@ -83,6 +83,12 @@ main article {
 
 }
 
+#todascartas {
+    border: 1px solid yellow;
+    margin-top: 2.4rem;
+       
+}
+
 #todascartas section a {
     text-decoration: none;
 }
@@ -91,12 +97,15 @@ main article {
     display: inline;
     flex-direction: column ;
     font-size: 1.6rem;
+    
+    
 
 }
 
 #todascartas img {
     width: 7.6rem;
     margin: 0 auto;
+    
 }
 
 
