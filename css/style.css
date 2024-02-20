@@ -21,39 +21,39 @@ body * {
     color: var(--text-color);
 }
 #container {
-    Width: 340px;
-    margin: 56px auto 0px;
+    Width: 34.0rem;
+    margin: 5.6rem auto 0rem;
     padding: 0 20px;
 }
 #profile{
     text-align:center;
-    padding: 24px;
+    padding: 2.4rem;
 }
 #profile img{
-    width: 112px;
+    width: 11.2rem;
     margin: auto;
 }
 #profile p {
     font-weight: 500;
-    line-height: 24px;
-    margin-top: 8px;
+    line-height: 2.4rem;
+    margin-top: .8rem;
 }
 ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 20px 0;
+    gap: 1.6rem;
+    padding: 2.0rem 0;
 }
 ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 52px;
-    padding: 16px 24px;
+    height: 5.2rem;
+    padding: 1.6rem 2.2rem;
     background: var(--surface-color);
     border: 1px solid rgb(48, 31, 69);
-    border-radius: 8px;
+    border-radius: .8rem;
     text-decoration: none;
     font-weight: 500;
 }
@@ -64,26 +64,36 @@ ul li a:hover {
 #social-links {
     display: flex;
     justify-content: center;
-    padding: 16px 0;
-    font-size: 24px;
+    padding: 1.6rem 0;
+    font-size: 2.4rem;
 }
 #social-links a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 14px;
+    padding: 1.4rem;
    
 }
 #social-links a:hover {
     background: var(--social-color-hover);
-        padding: 16px;
+        padding: 1.6rem;
     border-radius: 50%
 }
 footer {
-    text-align: center;
-    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    color: blueviolet;
+    margin-top: 0 auto;
+}
+    /*
+    text-align: center;
+    font-size: 1.4rem;
+    justify-content: center;
+    margin-bottom: 3.0rem;
 }
 /*
 .light {
