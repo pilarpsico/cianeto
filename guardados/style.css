@@ -1,20 +1,23 @@
-:root {
+:root  {
     --text-color:#ffffff;
     --text-bgcolor:  rgb(31, 14, 41);
     --stroke-color:  rgb(48, 31, 69);
     --surface-color: rgb(28, 18, 37);
     --surface-color-hover:rgb(48, 21, 63);
-    --social-color-hover: rgb(41, 13, 54);
+    --social-color-hover: rgb(48, 21, 63);
     
-}
 
+    font-size: 62.5%;
+    max-width: 32.0rem;
+    margin-inline: auto;
+}
 body {
     background-color: var(--text-bgcolor);
 }
 * {
     margin: 0;
     padding: 0;
-    background:border-box;
+    box-sizing: border-box;
 }
 body * {
     font-family: 'Inter', sans-serif;
@@ -22,7 +25,7 @@ body * {
 }
 #container {
     Width: 34.0rem;
-    margin: 5.6rem auto 0rem;
+    margin:5.6rem  auto 0;
     padding: 0 20px;
 }
 #profile{
@@ -37,6 +40,7 @@ body * {
     font-weight: 500;
     line-height: 2.4rem;
     margin-top: .8rem;
+    font-size: 1.6rem;
 }
 ul {
     list-style: none;
@@ -50,12 +54,15 @@ ul li a {
     justify-content: center;
     align-items: center;
     height: 5.2rem;
+    width: 80%;
     padding: 1.6rem 2.2rem;
     background: var(--surface-color);
     border: 1px solid rgb(48, 31, 69);
     border-radius: .8rem;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1.6rem;
+    margin: 0 auto;
 }
 ul li a:hover {
     background: var(--surface-color-hover);
@@ -80,72 +87,15 @@ ul li a:hover {
     border-radius: 50%
 }
 footer {
-    font-size: 1.4rem;
-    font-family: 'Opens Sans', sans-serif;
-    font-weight: 100;
-    display: flex;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.4rem;
+   font-weight: 100;
+   display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    color: blueviolet;
-    margin-top: 0 auto;
-}
-    /*
-    text-align: center;
-    font-size: 1.4rem;
-    justify-content: center;
-    margin-bottom: 3.0rem;
-}
-/*
-.light {
-    --text-color: black;
-    --text-bgcolor: rgb(210, 197, 221);
-    --stroke-color: rgb(11, 3, 17);
-    --surface-color: rgb(144, 116, 180);
-    --surface-color-hover: rgb(114, 55, 153);
-    --social-color-hover: rgb(114, 55, 153);
-   
-}
+   color: blueviolet;
+   margin-bottom: 2.4rem;
 
-#switch {
-    position: relative;
-    width: 64px;
-    margin: 0 auto;
-    padding: 4px;
-}
-
-
-#switch button {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: white;
-
-    z-index: 1;
-    left: 0;
-    transform: translatey(-50%);
-    top: 50%;
-
-    position:absolute;
-    z-index: 1;
-    top:50%
 
 }
 
-#switch span {
-    width: 64px;
-    height: 24px;
-    background: var(--surface-color-hover);
-    border: 1px solid var(--stroke-color);
-   -webkit-backdrop-filter: blur(4px);
-    display: block;
-    border-radius: 9999px;
-}
-
-
-
-.light #switch button {
-    right: 0;
-    left: inital;
-
-   
-}*/
