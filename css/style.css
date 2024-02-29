@@ -11,6 +11,7 @@
     --surface-color-hover:rgb(48, 21, 63);
     --sociallinks: white;
     --border-color:  rgb(61, 32, 90);
+    --header-color:  rgb(48, 31, 69);
     --botao-switch: url(../img/moon-stars.svg);
 
 }
@@ -32,6 +33,7 @@ body {
 }
 #profile img {
     width: 11.2rem;
+    border-radius: 50%;
 }
 
 ul {
@@ -126,6 +128,7 @@ footer {
     --surface-color-hover: rgb(114, 55, 153);
     --sociallinks: blueviolet;
     --border-color: rgb(114, 55, 153);
+    --header-color:  rgb(144, 116, 180);
     --botao-switch: url(../img/sun.svg);
    
 }

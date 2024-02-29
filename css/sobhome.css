@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-size: 62.5%;
+    max-width: 100%;
+    --text-bgcolor:  rgb(31, 14, 41);
+    --text-color: white;
+    --bg-ulli-color: rgb(28, 18, 37);
+    --border-color:  rgb(61, 32, 90);
+    --surface-color-hover:rgb(48, 21, 63);
+}
+
+body {
+    width: 80%;
+    background-color: var(--text-bgcolor);
+    padding: 1.0rem;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'inter', sans-serif;
+    font-size: 3.2rem;
+    color: var(--text-color);
+    text-align: center;
+    background-color: var(--bg-ulli-color);
+    border: 1px solid  var(--border-color);
+    border-radius: 1.0rem 6.0rem;
+    padding: 0.8rem;
+    margin: 1.6rem auto;
+
+}
+
+header nav {
+ 
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: inline;
+    gap: 1.6rem;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+header nav ul li {
+    font-size: 1.6rem;
+    background-color:var(--bg-ulli-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.8rem;
+    padding: 1.0rem;
+    margin-top: 1.6rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+header nav li:hover{
+    background: var(--surface-color-hover);
+    border: 1px solid rgb(96, 28, 160); 
+}
+main {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+main article {
+    margin-top: 3.6rem;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    line-height: 1.5;
+    font-weight: 100;
+    padding: 0.8rem;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.weight {
+    font-weight: 600;
+}
+.family {
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    font-weight: 100;
+}
+.fim {
+    font-style: italic;
+}
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    text-align: center;
+    color: blueviolet;
+}
+
+.light {
+    --text-color: black;
+    --text-bgcolor: rgb(210, 197, 221);
+    --bg-ulli-color: rgb(144, 116, 180);
+    --border-color: rgb(114, 55, 153);
+    --surface-color-hover: rgb(114, 55, 153);
+
+}
+
+@media (max-width: 400px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+}
