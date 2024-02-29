@@ -99,6 +99,8 @@ footer {
     font-size: 1.4rem;
     text-align: center;
     color: blueviolet;
+    padding: 1.6rem;
+    margin-top: 1.0rem;
 }
 
 
@@ -124,7 +126,7 @@ footer {
     }
     header nav ul li {
         font-size: 1.4rem;
-       
+    }
     main {
         width: 100%;
     }
