@@ -105,22 +105,3 @@ footer {
     color: blueviolet;
     padding: 2.4rem;
 }
-
-@media (max-width: 400px) {
-    body {
-        width: 100%;
-        margin: 2.0rem;
-    }
-
-    header {
-        width: 100%;
-       
-    }
-
-    article {
-        width: 100%;
-    }
-    footer {
-        width: 100%;
-    }
-}
