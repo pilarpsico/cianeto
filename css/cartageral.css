@@ -137,10 +137,17 @@ footer {
 @media (max-width: 400px) {
     body {
         width: 100%;
+        
+    
     }
 
     header {
         width: 100%;
+        margin-left: 1.0rem;
+       
+    }
+    h2 {
+       
     }
     nav {
         width: 100%;
@@ -149,7 +156,7 @@ footer {
         font-size: 1.4rem;
     }
     main {
-        width: 100%;
+        width: 90%;
     }
    
     #todascartas {
