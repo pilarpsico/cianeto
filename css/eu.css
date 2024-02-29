@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-size: 62.5%;
+    max-width: 100%;
+    --text-bgcolor:  rgb(31, 14, 41);
+    --text-color: white;
+    --bg-ulli-color: rgb(28, 18, 37);
+    --border-color:  rgb(61, 32, 90);
+    --surface-color-hover:rgb(48, 21, 63);
+}
+
+body {
+    width: 80%;
+    background-color: var(--text-bgcolor);
+    padding: 1.0rem;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'inter', sans-serif;
+    font-size: 3.2rem;
+    color: var(--text-color);
+    text-align: center;
+    background-color: var(--bg-ulli-color);
+    border: 1px solid  var(--border-color);
+    border-radius: 1.0rem 6.0rem;
+    padding: 0.8rem;
+    margin: 1.6rem auto;
+
+}
+
+header nav {
+ 
+}
+header nav ul {
+    display: flex;
+    flex-direction: inline;
+    gap: 1.6rem;
+    justify-content: center;
+    list-style: none;
+    
+}
+header nav ul li {
+    font-size: 1.6rem;
+    background-color:var(--bg-ulli-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.8rem;
+    padding: 1.0rem;
+    margin-top: 1.6rem;
+}
+header nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+header nav li:hover{
+    background: var(--surface-color-hover);
+    border: 1px solid rgb(96, 28, 160); 
+}
+
+
+#iframe iframe  {
+    
+    max-width: 80%;
+    display: flex;
+    margin: 3.6rem auto;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+article {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: white;
+    line-height: 1.5;
+}
+p {
+    padding: 0.5rem;
+}
+.italic {
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.wght {
+    font-weight: 400;
+}
+.detal {
+    letter-spacing: 0.2rem;
+}
+.p{ 
+    font-size: 1.6rem;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-family: 'open sans';
+    font-size: 1.4rem;
+    color: blueviolet;
+    padding: 1.6rem;
+    font-weight: 100;
+}
+@media (max-width: 400px) {
+    body {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+    footer {
+        width: 100%;
+    }
+}
