@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root {
     font-size: 62.5%;
@@ -84,7 +85,7 @@ footer {
 
 
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   
     body {
         width: 100%;
@@ -108,6 +109,10 @@ footer {
     }
     article {
         width: 100%;
+    }
+    article .text {
+        width: 100%;
+        
     }
     footer {
         width: 100%;

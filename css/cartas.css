@@ -2,13 +2,14 @@
 
 main {
     width: 100%;
-    text-align: center;
-    margin: 0 auto;
+   
 }
+.text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2.4rem;
 
-article {
-    width: 90%;
-    margin-top: 3.6rem;
 }
 p {
     font-family: 'Open Sans', sans-serif;
