@@ -73,11 +73,24 @@ footer {
     margin-bottom: 1.6rem;
 }
 
+.light {
+    --text-color: black;
+    --text-bgcolor: rgb(210, 197, 221);
+    --bg-ulli-color: rgb(144, 116, 180);
+    --surface-color-hover: rgb(114, 55, 153);
+    --border-color: rgb(114, 55, 153);
+    --header-color:  rgb(144, 116, 180);
+}
+
+
+
 @media (max-width: 400px) {
     body {
         width: 100%;
     }
-
+    header {
+        width: 90%;
+    }
     header nav ul li {
         font-size: 1.4rem;
         display: inline-block;
@@ -96,15 +109,4 @@ footer {
     footer {
         width: 100%;
     }
-}
-
-
-
-.light {
-    --text-color: black;
-    --text-bgcolor: rgb(210, 197, 221);
-    --bg-ulli-color: rgb(144, 116, 180);
-    --surface-color-hover: rgb(114, 55, 153);
-    --border-color: rgb(114, 55, 153);
-    --header-color:  rgb(144, 116, 180);
 }
