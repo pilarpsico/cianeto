@@ -113,3 +113,11 @@ footer {
     --surface-color-hover: rgb(114, 55, 153);
 
 }
+@media (max-width: 400px) {
+    header nav ul li {
+        font-size: 1.4rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
