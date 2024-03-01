@@ -109,11 +109,13 @@ section {
     width: 6.4rem;
 }
 
-figcaption {
+figcaption a {
     color: var(--text-color);
    
 }
-
+a{
+    color: white;
+}
 footer {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
