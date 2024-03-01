@@ -121,6 +121,7 @@ footer {
     right: 0;
     left: initial;
 }
+
 .light {
     --text-color: black;
     --text-bgcolor: rgb(210, 197, 221);
