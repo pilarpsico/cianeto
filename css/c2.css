@@ -36,7 +36,6 @@ header nav {
     width: 100%;
  
 }
-
 header nav ul {
     display: flex;
     flex-direction: inline;
@@ -45,7 +44,6 @@ header nav ul {
     list-style: none;
     
 }
-
 header nav ul li {
     font-size: 1.6rem;
     background-color:var(--bg-ulli-color);
@@ -54,7 +52,6 @@ header nav ul li {
     padding: 1.0rem;
     margin-top: 1.6rem;
 }
-
 header nav a {
     text-decoration: none;
     color: var(--text-color);
@@ -63,53 +60,40 @@ header nav li:hover{
     background: var(--surface-color-hover);
     border: 1px solid rgb(96, 28, 160); 
 }
+
 main {
     width: 100%;
-    text-align: center;
-    margin: 0 auto;
-}
-main article {
-    margin-top: 3.6rem;
-}
-
-
-p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
-    color: var(--text-color);
+    font-weight: 100;
+    color:white;
     line-height: 1.5;
-    font-weight: 100;
-    padding: 0.8rem;
+    margin-top: 2.4rem;
+    
 }
-
-.italic {
+p {
+    padding: 0.5rem;
+}
+.iltalic {
     font-style: italic;
+}
+.center {
+    text-align: center;
+    font-weight: 400;
+}
+.right {
+    font-style: italic;
+    text-align: right;
+}
+.font {
     font-size: 1.8rem;
-}
-.weight {
-    font-weight: 600;
-}
-.family {
-    font-family:'Times New Roman', Times, serif, sans-serif;
-    font-weight: 100;
-}
-.fim {
-    font-style: italic;
 }
 
 footer {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans';
     font-weight: 100;
     font-size: 1.4rem;
-    text-align: center;
     color: blueviolet;
-}
-
-.light {
-    --text-color: black;
-    --text-bgcolor: rgb(210, 197, 221);
-    --bg-ulli-color: rgb(144, 116, 180);
-    --border-color: rgb(114, 55, 153);
-    --surface-color-hover: rgb(114, 55, 153);
-
+    padding: 2.4rem;
+    text-align: center;
 }
