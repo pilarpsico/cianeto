@@ -36,6 +36,7 @@ h2 {
 
 header nav {
     width: 100%;
+    text-align: center;
 }
 header nav ul {
   padding: 0;
