@@ -15,19 +15,18 @@
 }
 
 body {
+    background: linear-gradient(to left, blueviolet, rgb(35, 2, 65));
     width: 80%;
-    background-color: var(--text-bgcolor);
-   
     margin: 0 auto;
-   
 }
+
 
 h2 {
     font-family: 'inter', sans-serif;
     font-size: 3.2rem;
     color: var(--text-color);
     text-align: center;
-    background-color: var(--bg-ulli-color);
+    background-color: blueviolet;
     border: 1px solid  var(--border-color);
     border-radius: 1.0rem 6.0rem;
     padding: 0.8rem;
@@ -38,14 +37,13 @@ h2 {
 header nav {
     width: 100%;
     text-align: center;
-    margin: 0 auto;
 }
 header nav ul {
   padding: 0;
 }
 header nav ul li {
     font-size: 1.6rem;
-    background-color:var(--bg-ulli-color);
+    background-color:blueviolet;
     border: 1px solid var(--border-color);
     border-radius: 0.8rem;
     display: inline-block;
@@ -62,27 +60,36 @@ header nav li:hover{
     border: 1px solid rgb(96, 28, 160); 
 }
 
-p {
-    color: var(--text-color);
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2.4rem;
 }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 100;
+    padding: 0.5rem;
+    line-height: 1.5;
+}
+.wght {
+    font-weight: 500;
+}
+.italic {
+    font-style: italic;
+    font-size: 1.8rem;
+}
+
 
 footer {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 100;
+    color: black;
     font-size: 1.4rem;
     text-align: center;
-    color: blueviolet;
+    margin-top: 1.6rem;
     margin-bottom: 1.6rem;
-}
-
-
-.light {
-    --text-color: black;
-    --text-bgcolor: rgb(210, 197, 221);
-    --bg-ulli-color: rgb(144, 116, 180);
-    --surface-color-hover: rgb(114, 55, 153);
-    --border-color: rgb(114, 55, 153);
-    --header-color:  rgb(144, 116, 180);
+    font-family: 'Open Sans', sans-serif;
 }
 
 
