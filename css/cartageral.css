@@ -151,9 +151,14 @@ footer {
     }
     nav {
         width: 90%;
+        margin: 0 auto;
     }
     header nav ul li {
         font-size: 1.4rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     main {
         width: 90%;
