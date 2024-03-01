@@ -84,12 +84,16 @@ footer {
 
 
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
+  
     body {
         width: 100%;
+        margin: 0 auto;
     }
     header {
         width: 90%;
+        margin: 0 auto;
+     
     }
     header nav ul li {
         font-size: 1.4rem;
@@ -100,13 +104,13 @@ footer {
     }
     main {
         width: 100%;
-        padding: 0.5rem;
+        margin: 0 auto;
     }
-
     article {
         width: 100%;
     }
     footer {
         width: 100%;
+        text-align: center;
     }
 }
