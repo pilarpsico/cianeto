@@ -70,13 +70,20 @@ p {
    
 }
 
-a {
+main a {
     font-size: 1.6rem;
     color: rgb(215, 188, 236);
     display: flex;
     flex-direction: column;
     padding:0.5rem;
+    text-decoration: none;
 }
+
+main a:visited {
+    color: rgb(142, 41, 236);
+
+}
+
 
 footer {
     text-align: center;
