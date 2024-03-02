@@ -1,4 +1,9 @@
 
+main {
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+
+}
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
@@ -6,9 +11,7 @@ p {
     margin: 3.4rem auto;
     text-align: center;
     padding: 0.8rem;
-   
 }
-
 main a {
     font-size: 1.6rem;
     color: rgb(215, 188, 236);
