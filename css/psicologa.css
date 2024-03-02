@@ -113,16 +113,11 @@ footer {
         text-align: center;
     }
     main {
-        width: 100%;
+        width: 95%;
         margin: 0 auto;
     }
-    article {
-        width: 100%;
-    }
-    article .text {
-        width: 100%;
-        
-    }
+ 
+    
     footer {
         width: 100%;
         text-align: center;
