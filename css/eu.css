@@ -63,18 +63,3 @@ footer {
     padding: 1.6rem;
     font-weight: 100;
 }
-@media (max-width: 400px) {
-    body {
-        width: 100%;
-    }
-    header {
-        width: 100%;
-    }
-    main {
-        width: 100%;
-        font-size: 1.6rem;
-    }
-    footer {
-        width: 100%;
-    }
-}
