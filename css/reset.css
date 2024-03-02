@@ -114,7 +114,9 @@ footer {
         width: 95%;
         
     }
-      
+    a {
+        font-size: 1.6rem;
+    }
     footer {
         width: 100%;
         text-align: center;
