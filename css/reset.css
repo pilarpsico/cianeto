@@ -98,11 +98,10 @@ footer {
         margin: 0 auto;
      
     }
-    header a {
-        font-size: 1.6rem;
-    }
+    
+    
     header nav ul li {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         display: inline-block;
         justify-content: center;
         align-items: center;
@@ -117,8 +116,10 @@ footer {
         width: 95%;
         
     }
-
-    
+    /*mais versos*/
+    main a {
+        font-size: 1.6rem;
+    }
     footer {
         width: 100%;
         text-align: center;
