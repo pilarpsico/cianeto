@@ -27,13 +27,6 @@ p {
 }
 .font {
     font-size: 1.8rem;
+    margin-bottom: 1.6rem;
 }
 
-footer {
-    font-family: 'Open Sans';
-    font-weight: 100;
-    font-size: 1.4rem;
-    color: blueviolet;
-    padding: 2.4rem;
-    text-align: center;
-}

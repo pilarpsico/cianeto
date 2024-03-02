@@ -44,6 +44,7 @@ p {
 
 main ul {
     margin-top: 2.4rem;
+    margin-bottom: 1.6rem;
 }
 
 main ul li a {
@@ -55,11 +56,4 @@ main ul li:visited {
     color: rgb(180, 123, 233);
 
 }
-footer {
-    text-align: center;
-    font-family: 'open sans';
-    font-size: 1.4rem;
-    color: blueviolet;
-    padding: 1.6rem;
-    font-weight: 100;
-}
+
