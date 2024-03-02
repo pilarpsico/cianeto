@@ -98,6 +98,9 @@ footer {
         margin: 0 auto;
      
     }
+    header a {
+        font-size: 1.6rem;
+    }
     header nav ul li {
         font-size: 1.6rem;
         display: inline-block;
@@ -114,9 +117,8 @@ footer {
         width: 95%;
         
     }
-    header a {
-        font-size: 1.6rem;
-    }
+
+    
     footer {
         width: 100%;
         text-align: center;
