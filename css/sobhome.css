@@ -33,14 +33,6 @@ p {
     font-style: italic;
 }
 
-footer {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 100;
-    font-size: 1.4rem;
-    text-align: center;
-    color: blueviolet;
-    margin-bottom: 1.6rem;
-}
 
 .light {
     --text-color: black;
