@@ -42,16 +42,16 @@ p {
     color: rgb(215, 188, 236);
 }
 
-ul {
+main ul {
     margin-top: 2.4rem;
 }
 
-ul li a {
+main ul li a {
     color: rgb(215, 188, 236);
     font-size: 1.6rem;
     text-decoration: none;
 }
-ul li:visited {
+main ul li:visited {
     color: rgb(142, 41, 236);
 
 }
