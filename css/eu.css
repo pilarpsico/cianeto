@@ -35,6 +35,9 @@ p {
     font-size: 1.6rem;
     color: white;
 }
+.font {
+    font-size: 1.8rem;
+}
 
 footer {
     text-align: center;
