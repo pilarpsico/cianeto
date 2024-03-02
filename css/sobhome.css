@@ -50,27 +50,3 @@ footer {
     --surface-color-hover: rgb(114, 55, 153);
 
 }
-@media (max-width: 400px) {
-    body {
-        width: 100%;
-    }
-
-    header nav ul li {
-        font-size: 1.4rem;
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    main {
-        width: 100%;
-        padding: 0.5rem;
-    }
-
-    article {
-        width: 100%;
-    }
-    footer {
-        width: 100%;
-    }
-}
