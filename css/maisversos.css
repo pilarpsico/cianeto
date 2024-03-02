@@ -15,7 +15,7 @@ p {
     font-weight: 100;
 }
 main a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: rgb(215, 188, 236);
     display: flex;
     flex-direction: column;
@@ -35,4 +35,10 @@ footer {
     font-size: 1.4rem;
     color: blueviolet;
     margin-top: 35.0rem;
+}
+
+@media (max-width: 400px) {
+    main a {
+        font-size: 1.6rem;
+    }
 }
