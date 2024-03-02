@@ -2,6 +2,7 @@
 main {
     width: 80%;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 
 }
 p {
@@ -11,9 +12,10 @@ p {
     margin: 3.4rem auto;
     text-align: center;
     padding: 0.8rem;
+    font-weight: 100;
 }
 main a {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: rgb(215, 188, 236);
     display: flex;
     flex-direction: column;
