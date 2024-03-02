@@ -45,6 +45,7 @@ ul {
 
 ul li a {
     color: rgb(215, 188, 236);
+    font-size: 1.6rem;
     text-decoration: none;
 }
 ul li:visited {
