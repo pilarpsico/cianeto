@@ -39,6 +39,18 @@ p {
     font-size: 1.8rem;
 }
 
+ul {
+    margin-top: 2.4rem;
+}
+
+ul li a {
+    color: rgb(215, 188, 236);
+    text-decoration: none;
+}
+ul li:visited {
+    color: rgb(142, 41, 236);
+
+}
 footer {
     text-align: center;
     font-family: 'open sans';
