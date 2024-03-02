@@ -38,6 +38,9 @@ p {
 .font {
     font-size: 1.8rem;
 }
+.font a {
+    color: rgb(215, 188, 236);
+}
 
 ul {
     margin-top: 2.4rem;
