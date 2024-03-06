@@ -19,6 +19,7 @@ body {
     background-color:  var(--text-bgcolor);
     font-size: 1.6rem;
     color: var(--text-color);
+    
 }
 #container {
     width: 80%;
@@ -42,15 +43,17 @@ ul {
    
 }
 ul li {
+    font-family: "satisfy";
+    font-weight: 100;
     margin: 0 auto;
     border: 1px solid  var(--border-color);
     border-radius: 0.8rem;
     margin-top: 1.6rem;
     width: 22.4rem;
     text-align: center;
-    line-height: 3;
+    line-height: 2.5;
     background-color: var(--bg-ulli-color);
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     
 }
 ul li a {
