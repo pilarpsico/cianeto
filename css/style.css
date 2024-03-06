@@ -54,7 +54,7 @@ body {
 }
 /* animação do cursor*/
 .type-animation {
-    animation: blinkCursor 500ms steps(40) infinite normal, pilar 3s steps(30).5s normal;
+    animation: blinkCursor 500ms steps(40) infinite normal, pilar 3s steps(30) 1.5s normal;
 }
 @keyframes blinkCursor {
     from {
