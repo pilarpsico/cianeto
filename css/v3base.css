@@ -5,13 +5,35 @@ main {
    
     color: white;
 }
-
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding: 0.8rem;
+}
 .text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     line-height: 1.5;
     margin-top: 3.6rem;
 }
+.margin {
+    margin-top: 1.6rem;
+}
+.font {
+    font-size: 1.8rem;
+}
+.italic {
+    font-style: italic;
+}
+.wght {
+    font-weight: 400;
+}
+.justify {
+    text-align: justify;
+}
+
 
 
 
