@@ -33,10 +33,46 @@ body {
     margin-top: 3.6rem;
     text-align: center;
     font-size: 1.4rem;
+    
 }
 #profile img {
     width: 11.2rem;
     border-radius: 50%;
+}
+.line {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 6.0rem;
+    margin: 0 auto;
+
+    color: var(--text-color);
+    border-right: 2px solid var(--border-color);
+    overflow: hidden;
+
+}
+/* animação do cursor*/
+.type-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal, pilar 3s steps(30).5s normal;
+}
+@keyframes blinkCursor {
+    from {
+        border-right-color: var(--border-color);
+    }
+    to {
+        border-right-color: transparent; 
+    }
+
+}
+/*animação do nome*/
+@keyframes pilar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 6.0rem;
+    }
 }
 
 ul {
