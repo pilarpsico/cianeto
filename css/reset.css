@@ -23,7 +23,7 @@ body {
 }
 
 h2 {
-    font-family: 'Satisfy';
+    font-family: 'inter', sans-serif;
     font-size: 3.2rem;
     font-weight: 100;
     color: var(--text-color);
@@ -45,7 +45,7 @@ header nav ul {
   padding: 0;
 }
 header nav ul li {
-    font-family: 'Satisfy';
+    font-family: 'inter', sans-serif;
     font-size: 1.6rem;
     font-weight: 100;
     background-color:var(--bg-ulli-color);
