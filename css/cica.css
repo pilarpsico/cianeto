@@ -6,6 +6,8 @@
 }
 body {
     background-color: aquamarine;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -13,7 +15,7 @@ header nav {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    margin: 2.4rem;
+    margin-top: 1.6rem;
 }
 header nav ul {
   padding: 0;
@@ -34,13 +36,18 @@ header nav a {
     text-decoration: none;
     color: var(--text-color);
 }
-
+main {
+    width: 80%;
+   
+    margin: 0 auto;
+}
 p { 
     font-family: 'Satisfy', cursive;
     font-size: 4.8rem;
-    margin: 16.0rem;
+    margin: 0 auto;
     color:black;
     text-align: center;
+    margin-top: 17.0rem;
 
 }
 script {
@@ -54,11 +61,13 @@ script {
     p {
     width: 90%;
     font-family: 'Satisfy', cursive;
-    font-size: 3.6rem;
+    font-size: 3.0rem;
     margin: 0 auto;
     color:black;
     text-align: center;
     white-space: nowrap;
     margin-top: 15.0rem;
+    display: flex;
+    justify-content: center;
     }
 }
