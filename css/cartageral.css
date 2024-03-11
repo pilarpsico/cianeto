@@ -27,32 +27,30 @@ article p {
     font-weight: 400;
     text-align: justify;
 }
+.left {
+   text-align: left;
+}
 section {
-    font-style: italic;
+    display: block;
+   
     color: var(--text-color);
     margin-top: 3.6rem;
     
 
 }
 #todascartas {
-    display: flex;
-    flex-direction: row;
+    display: block;
+    line-height: 1.5;
     margin: 0 auto;
     gap: 0.8rem;
     justify-content: center;
     margin-bottom: 1.6rem;
 }
 
-#todascartas img {
-    width: 6.4rem;
-}
-
-figcaption a {
-    color: var(--text-color);
-   
-}
 a{
-    color: white;
+    font-size: 1.8rem;
+    color: rgb(33, 155, 163);
+    text-decoration: none;
 }
 
 
