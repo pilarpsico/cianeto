@@ -115,8 +115,12 @@ footer {
         margin: 0 auto;
        
     }
+    .widthinterno {
+        width: 95%;
+    }
     article {
         width: 95%;
+        margin: 0 auto;
         
     }
     /*mais versos*/
