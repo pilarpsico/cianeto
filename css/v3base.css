@@ -15,6 +15,13 @@ p {
     line-height: 1.5;
     padding: 0.8rem;
 }
+article > p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding: 0.8rem;
+}
 .text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
