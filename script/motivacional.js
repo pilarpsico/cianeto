@@ -14,7 +14,5 @@ const elementoResposta = document.querySelector("#resposta")
 
 elementoResposta.innerHTML = respostas[numeroAleatorio]
 
-setTimeout(function(){
-    elementoResposta.style.opacity = 0;
-}, 4000)
+
 }
